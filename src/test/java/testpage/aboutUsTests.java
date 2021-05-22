@@ -20,7 +20,7 @@ public class aboutUsTests {
 	WebDriverManager.chromedriver().setup();
 	
 	ChromeOptions options = new ChromeOptions();
-	options.addArguments("--headless","--no-sandbox","--disable-dev-shm-usage");
+	options.addArguments("--headless","--no-sandbox","--disable-dev-shm-usage","start-maximized","disable-infobars","--disable-extensions","--disable-gpu");
 	driver = new ChromeDriver(options);
 	
 	driver.manage().window().maximize();
