@@ -24,7 +24,7 @@ public class aboutUsTests {
 	driver = new ChromeDriver(options);
 	
 	driver.manage().window().maximize();
-	driver.get("http://54.208.29.239:5775/");
+	driver.get("http://54.144.204.139:5775/");
 
 	
 	driver.findElement(By.xpath("//a[@id='About Us']")).click();
