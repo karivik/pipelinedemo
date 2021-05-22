@@ -20,7 +20,7 @@ public class aboutUsTests {
 	WebDriverManager.chromedriver().setup();
 	
 	ChromeOptions options = new ChromeOptions();
-	options.addArguments("--headless");
+	options.addArguments("--headless","--no-sandbox");
 	driver = new ChromeDriver(options);
 	
 	driver.manage().window().maximize();
