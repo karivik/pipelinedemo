@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="6263" started-at="2021-05-21T16:30:21 EDT" finished-at="2021-05-21T16:30:28 EDT">
+  <suite name="Default suite" duration-ms="3493" started-at="2021-05-26T15:58:36 EDT" finished-at="2021-05-26T15:58:39 EDT">
     <groups>
     </groups>
-    <test name="Regression Tests" duration-ms="6263" started-at="2021-05-21T16:30:21 EDT" finished-at="2021-05-21T16:30:28 EDT">
+    <test name="Default test" duration-ms="3493" started-at="2021-05-26T15:58:36 EDT" finished-at="2021-05-26T15:58:39 EDT">
       <class name="testpage.aboutUsTests">
-        <test-method status="PASS" signature="getUrl()[pri:0, instance:testpage.aboutUsTests@3fd7a715]" name="getUrl" duration-ms="6176" started-at="2021-05-21T16:30:21 EDT" finished-at="2021-05-21T16:30:28 EDT">
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:testpage.aboutUsTests@3fd7a715]" name="getUrl" duration-ms="3418" started-at="2021-05-26T15:58:36 EDT" finished-at="2021-05-26T15:58:39 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUrl -->
       </class> <!-- testpage.aboutUsTests -->
-    </test> <!-- Regression Tests -->
-  </suite> <!-- Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
